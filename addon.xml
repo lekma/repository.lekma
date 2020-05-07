@@ -13,6 +13,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">lekma's addon repository</summary>
         <description lang="en_GB">lekma's repository for Kodi addons</description>
+        <summary lang="fr_FR">Dépôt d'extensions pour Kodi de lekma</summary>
+        <description lang="fr_FR">Dépôt d'extensions pour Kodi de lekma</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>

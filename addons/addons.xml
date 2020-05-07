@@ -15,6 +15,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">lekma's addon repository</summary>
         <description lang="en_GB">lekma's repository for Kodi addons</description>
+        <summary lang="fr_FR">Dépôt d'extensions pour Kodi de lekma</summary>
+        <description lang="fr_FR">Dépôt d'extensions pour Kodi de lekma</description>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
@@ -39,6 +41,8 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Inter-Addon Procedure Call</summary>
         <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
+        <summary lang="fr_FR">Inter-extension d'appel de procédures</summary>
+        <description lang="fr_FR">Inter-extension d'appel de procédures pour Kodi</description>
         <license>GPL-3.0-only</license>
         <platform>all</platform>
         <source>https://github.com/lekma/script.module.iapc</source>
@@ -77,8 +81,8 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <summary lang="en_GB">Invidious Addon</summary>
         <description lang="en_GB">Invidious Addon</description>
-        <summary lang="fr_FR">Addon pour Invidious</summary>
-        <description lang="fr_FR">Addon pour Invidious</description>
+        <summary lang="fr_FR">Extension pour Invidious</summary>
+        <description lang="fr_FR">Extension pour Invidious</description>
         <license>GPL-3.0-only</license>
         <platform>all</platform>
         <source>https://github.com/lekma/plugin.video.invidious</source>
