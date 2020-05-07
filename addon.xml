@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lekma"
+       name="lekma's addon repository"
+       version="0.0.1"
+       provider-name="lekma">
+
+	<extension point="xbmc.addon.repository">
+		<info></info>
+		<checksum></checksum>
+		<datadir></datadir>
+	</extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">lekma's addon repository</summary>
+        <description lang="en_GB">lekma's repository for Kodi addons</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+
+</addon>
