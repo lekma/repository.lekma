@@ -200,5 +200,38 @@
 
 </addon>
 
+<addon id="plugin.video.dlive"
+       name="DLive"
+       version="0.2.0"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+        <import addon="script.module.six" version="1.11.0" />
+        <import addon="script.module.kodi-six" version="0.1.2" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.iapc" version="0.1.0" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
+        <provides>video</provides>
+    </extension>
+
+	<extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>GPL-3.0-only</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/plugin.video.dlive</source>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.png</fanart>
+        </assets>
+        <summary lang="en_GB">DLive Livestreaming Addon</summary>
+        <description lang="en_GB">DLive Livestreaming Addon</description>
+    </extension>
+
+</addon>
 </addons>
 
