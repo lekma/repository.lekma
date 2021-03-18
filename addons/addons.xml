@@ -469,5 +469,29 @@
 
 </addon>
 
+<addon id="script.module.iapc"
+       name="Inter-Addon Procedure Call"
+       version="1.0.0"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Inter-Addon Procedure Call</summary>
+        <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
+        <license>GPL-3.0-only</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/script.module.iapc</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+
+</addon>
+
 </addons>
 
