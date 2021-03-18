@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.lekma"
        name="lekma's addon repository"
-       version="1.0.0"
+       version="2.0.0"
        provider-name="lekma">
 
     <extension point="xbmc.addon.repository">
-        <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml.sha256</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/addons</datadir>
+        <dir>
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/addons</datadir>
+        </dir>
+        <dir minversion="18.0.0">
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/leia/leia.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/leia/leia.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/leia</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix</datadir>
+        </dir>
     </extension>
 
     <extension point="xbmc.addon.metadata">
