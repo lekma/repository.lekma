@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.lekma"
        name="lekma's addon repository"
-       version="3.0.0"
+       version="4.0.0"
        provider-name="lekma">
 
     <extension point="xbmc.addon.repository">
@@ -14,6 +14,11 @@
             <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml</info>
             <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml.sha256</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix</datadir>
+        </dir>
+        <dir minversion="20.0.0">
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/nexus.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/nexus.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus</datadir>
         </dir>
     </extension>
 
