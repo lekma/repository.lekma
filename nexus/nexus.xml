@@ -800,4 +800,38 @@
 
 </addon>
 
+<addon id="plugin.video.mypurple"
+       name="MyPurple"
+       version="1.0.3"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="xbmc.addon" version="20.0.0" />
+        <import addon="script.module.iapc" version="1.0.6" />
+        <import addon="script.module.inputstreamhelper" version="0.5.10" />
+        <import addon="script.module.yt-dlp" version="2023.03.04-1" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.python.script" library="lib/script.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+        </assets>
+        <summary lang="en_GB">MyPurple</summary>
+        <description lang="en_GB">MyPurple</description>
+    </extension>
+
+</addon>
+
 </addons>
