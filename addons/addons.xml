@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.lekma"
-       name="lekma's addon repository"
-       version="1.0.0"
-       provider-name="lekma">
-
-    <extension point="xbmc.addon.repository">
-        <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml.sha256</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/addons</datadir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">lekma's addon repository</summary>
-        <description lang="en_GB">lekma's repository for Kodi addons</description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.dlive"
        name="DLive"
        version="0.2.0"
