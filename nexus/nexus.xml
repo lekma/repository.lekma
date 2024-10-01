@@ -530,4 +530,29 @@
 
 </addon>
 
+<addon id="service.sponsorblock"
+       name="SponsorBlock service"
+       version="1.2.1"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.nuttig" version="1.2.0" />
+        <import addon="script.module.iapc" version="2.2.0" />
+        <import addon="script.module.requests" version="2.31.0" />
+    </requires>
+
+    <extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">SponsorBlock service</summary>
+        <description lang="en_GB">SponsorBlock service</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/service.sponsorblock</source>
+    </extension>
+
+</addon>
+
 </addons>
