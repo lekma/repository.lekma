@@ -1307,4 +1307,30 @@
 
 </addon>
 
+<addon id="service.yt-dlp"
+       name="yt-dlp service"
+       version="1.3.2"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.nuttig" version="1.3.0" />
+        <import addon="script.module.iapc" version="2.3.0" />
+        <import addon="script.module.yt-dlp" version="2025.02.19-1" />
+        <import addon="service.manifests.mpd" version="1.3.0" />
+    </requires>
+
+    <extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">yt-dlp service</summary>
+        <description lang="en_GB">yt-dlp service</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/service.yt-dlp</source>
+    </extension>
+
+</addon>
+
 </addons>
