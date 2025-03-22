@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.module.iapc"
-       name="Inter-Addon Procedure Call"
-       version="2.1.4"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.0.0" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Inter-Addon Procedure Call</summary>
-        <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
-        <license>GPL-3.0-only</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/script.module.iapc</source>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.invidious"
        name="Invidious"
        version="2.2.4"
@@ -149,28 +124,6 @@
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
         </assets>
-    </extension>
-
-</addon>
-
-<addon id="script.module.iapc"
-       name="Inter-Addon Procedure Call"
-       version="2.2.0"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.0" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Inter-Addon Procedure Call</summary>
-        <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
-        <license>GPL-3.0-only</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/script.module.iapc</source>
     </extension>
 
 </addon>
