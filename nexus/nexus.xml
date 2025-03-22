@@ -220,32 +220,6 @@
 
 </addon>
 
-<addon id="service.yt-dlp"
-       name="yt-dlp service"
-       version="1.2.0"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.0" />
-        <import addon="script.module.iapc" version="2.2.0" />
-        <import addon="script.module.yt-dlp" version="2024.08.06-3" />
-        <import addon="service.manifests.mpd" version="1.2.0" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">yt-dlp service</summary>
-        <description lang="en_GB">yt-dlp service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.yt-dlp</source>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.mytube"
        name="MyTube"
        version="3.2.1"
@@ -391,32 +365,6 @@
 
 </addon>
 
-<addon id="service.yt-dlp"
-       name="yt-dlp service"
-       version="1.2.1"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.0" />
-        <import addon="script.module.iapc" version="2.2.0" />
-        <import addon="script.module.yt-dlp" version="2024.08.06-3" />
-        <import addon="service.manifests.mpd" version="1.2.0" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">yt-dlp service</summary>
-        <description lang="en_GB">yt-dlp service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.yt-dlp</source>
-    </extension>
-
-</addon>
-
 <addon id="service.sponsorblock"
        name="SponsorBlock service"
        version="1.2.0"
@@ -548,32 +496,6 @@
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
         </assets>
-    </extension>
-
-</addon>
-
-<addon id="service.yt-dlp"
-       name="yt-dlp service"
-       version="1.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.10.07-1" />
-        <import addon="service.manifests.mpd" version="1.2.5" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">yt-dlp service</summary>
-        <description lang="en_GB">yt-dlp service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.yt-dlp</source>
     </extension>
 
 </addon>
