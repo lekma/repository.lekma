@@ -47,46 +47,6 @@
 
 </addon>
 
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.1.1"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.0.0" />
-        <import addon="script.module.iapc" version="2.1.4" />
-        <import addon="script.module.yt-dlp" version="2024.08.06-1" />
-        <import addon="script.module.inputstreamhelper" version="0.6.1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="plugin.video.youtube" version="7.0.6.3" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/script.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.invidious"
        name="Invidious"
        version="3.2.0"
@@ -128,48 +88,6 @@
 
 </addon>
 
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.1"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.0" />
-        <import addon="script.module.iapc" version="2.2.0" />
-        <import addon="script.module.yt-dlp" version="2024.08.06-3" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.6.1" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.0" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.invidious"
        name="Invidious"
        version="3.2.1"
@@ -247,49 +165,6 @@
         <assets>
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.2"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.0" />
-        <import addon="script.module.iapc" version="2.2.0" />
-        <import addon="script.module.yt-dlp" version="2024.08.06-3" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.6.1" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.0" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.0" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
         </assets>
     </extension>
 
@@ -425,47 +300,6 @@
         <license>GPL-3.0-only</license>
         <platform>all</platform>
         <source>https://github.com/lekma/script.module.iapc</source>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.10.07-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
     </extension>
 
 </addon>
@@ -642,88 +476,6 @@
 
 </addon>
 
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.6"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.7"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.invidious"
        name="Invidious"
        version="3.2.7"
@@ -787,129 +539,6 @@
         <license>Unlicense</license>
         <platform>all</platform>
         <source>https://github.com/lekma/service.yt-dlp</source>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.8"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.9"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.10"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
     </extension>
 
 </addon>
