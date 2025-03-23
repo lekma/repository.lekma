@@ -45,27 +45,6 @@
 
 <addon id="script.module.nuttig"
        name="nuttig"
-       version="1.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">a useful (to me) collection of kodi utilities</summary>
-        <description lang="en_GB">a useful (to me) collection of kodi utilities</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/script.module.nuttig</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.nuttig"
-       name="nuttig"
        version="1.3.0"
        provider-name="lekma">
 
@@ -102,28 +81,6 @@
         <license>Unlicense</license>
         <platform>all</platform>
         <source>https://github.com/lekma/script.module.nuttig</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.iapc"
-       name="Inter-Addon Procedure Call"
-       version="2.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Inter-Addon Procedure Call</summary>
-        <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
-        <license>GPL-3.0-only</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/script.module.iapc</source>
     </extension>
 
 </addon>
@@ -174,30 +131,6 @@
 
 <addon id="service.manifests.mpd"
        name="MPEG-DASH manifests service"
-       version="1.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MPEG-DASH manifests service</summary>
-        <description lang="en_GB">MPEG-DASH manifests service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.manifests.mpd</source>
-    </extension>
-
-</addon>
-
-<addon id="service.manifests.mpd"
-       name="MPEG-DASH manifests service"
        version="1.3.0"
        provider-name="lekma">
 
@@ -240,33 +173,6 @@
         <license>Unlicense</license>
         <platform>all</platform>
         <source>https://github.com/lekma/service.manifests.mpd</source>
-    </extension>
-
-</addon>
-
-<addon id="service.yt-dlp"
-       name="yt-dlp service"
-       version="1.3.1"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.3.0" />
-        <import addon="script.module.iapc" version="2.3.0" />
-        <import addon="script.module.yt-dlp" version="2024.10.22-1" />
-        <import addon="service.manifests.mpd" version="1.3.0" />
-        <import addon="service.playlists.hls" version="1.3.0" optional="true" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">yt-dlp service</summary>
-        <description lang="en_GB">yt-dlp service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.yt-dlp</source>
     </extension>
 
 </addon>
@@ -325,31 +231,6 @@
 
 <addon id="service.sponsorblock"
        name="SponsorBlock service"
-       version="1.2.5"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.requests" version="2.31.0" />
-    </requires>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">SponsorBlock service</summary>
-        <description lang="en_GB">SponsorBlock service</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/service.sponsorblock</source>
-    </extension>
-
-</addon>
-
-<addon id="service.sponsorblock"
-       name="SponsorBlock service"
        version="1.3.0"
        provider-name="lekma">
 
@@ -394,46 +275,6 @@
         <license>Unlicense</license>
         <platform>all</platform>
         <source>https://github.com/lekma/service.sponsorblock</source>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.invidious"
-       name="Invidious"
-       version="3.2.6"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="service.yt-dlp" version="1.2.5" optional="true" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">Invidious addon</summary>
-        <description lang="en_GB">Invidious addon</description>
-        <license>GPL-3.0-only</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.invidious</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-            <fanart>resources/media/fanart.jpg</fanart>
-        </assets>
     </extension>
 
 </addon>
@@ -513,47 +354,6 @@
         <assets>
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
-       version="3.2.11"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.nuttig" version="1.2.5" />
-        <import addon="script.module.iapc" version="2.2.5" />
-        <import addon="script.module.yt-dlp" version="2024.12.13-1" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.7.0" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="service.yt-dlp" version="1.2.5" />
-        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
-        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
         </assets>
     </extension>
 
