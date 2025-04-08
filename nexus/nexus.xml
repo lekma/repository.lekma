@@ -85,6 +85,27 @@
 
 </addon>
 
+<addon id="script.module.nuttig"
+       name="nuttig"
+       version="1.4.6"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">a useful (to me) collection of kodi utilities</summary>
+        <description lang="en_GB">a useful (to me) collection of kodi utilities</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/script.module.nuttig</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.iapc"
        name="Inter-Addon Procedure Call"
        version="2.4.0"
@@ -451,6 +472,42 @@
         <import addon="xbmc.addon" version="20.2.0" />
         <import addon="script.module.inputstreamhelper" version="0.7.0" />
         <import addon="script.module.nuttig" version="1.4.2" />
+        <import addon="script.module.iapc" version="2.4.2" />
+        <import addon="service.yt-dlp" version="1.4.4" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.python.script" library="lib/scripts.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">MyTwitch</summary>
+        <description lang="en_GB">MyTwitch</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/plugin.video.mytwitch</source>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+        </assets>
+    </extension>
+
+</addon>
+
+<addon id="plugin.video.mytwitch"
+       name="MyTwitch"
+       version="1.4.4"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="xbmc.addon" version="20.2.0" />
+        <import addon="script.module.inputstreamhelper" version="0.7.0" />
+        <import addon="script.module.nuttig" version="1.4.6" />
         <import addon="script.module.iapc" version="2.4.2" />
         <import addon="service.yt-dlp" version="1.4.4" />
     </requires>
