@@ -341,6 +341,32 @@
 
 </addon>
 
+<addon id="service.yt-dlp"
+       name="yt-dlp service"
+       version="2.0.0"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.nuttig" version="1.4.10" />
+        <import addon="script.module.iapc" version="2.4.2" />
+        <import addon="script.module.yt-dlp" version="2025.10.22-20251106" />
+        <import addon="service.manifests" version="2.0.0" />
+    </requires>
+
+    <extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">yt-dlp service</summary>
+        <description lang="en_GB">yt-dlp service</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/service.yt-dlp</source>
+    </extension>
+
+</addon>
+
 <addon id="service.sponsorblock"
        name="SponsorBlock service"
        version="1.4.2"
