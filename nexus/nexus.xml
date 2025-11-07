@@ -22,6 +22,27 @@
 
 </addon>
 
+<addon id="script.module.m3u8"
+       name="m3u8"
+       version="6.0.0-20250131"
+       provider-name="Globo.com">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Python m3u8 parser.</summary>
+        <description lang="en_GB">Python m3u8 parser.</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <source>https://github.com/globocom/m3u8</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.packaging"
        name="packaging"
        version="25.0"
