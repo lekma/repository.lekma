@@ -167,6 +167,28 @@
 
 </addon>
 
+<addon id="script.module.iapc"
+       name="Inter-Addon Procedure Call"
+       version="2.4.4"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.nuttig" version="1.4.2" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Inter-Addon Procedure Call</summary>
+        <description lang="en_GB">Inter-Addon Procedure Call addon for Kodi</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/script.module.iapc</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.m3u8"
        name="m3u8"
        version="6.0.0-20250131"
