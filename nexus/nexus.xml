@@ -83,28 +83,6 @@
 
 <addon id="script.module.deno"
        name="Deno"
-       version="2.0.6"
-       provider-name="Deno authors">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.packaging" version="25.0" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Deno JavaScript Runtime</summary>
-        <description lang="en_GB">Deno JavaScript Runtime</description>
-        <license>MIT</license>
-        <platform>linux</platform>
-        <source>https://github.com/lekma/script.module.deno</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.deno"
-       name="Deno"
        version="2.0.8"
        provider-name="Deno authors">
 
@@ -206,28 +184,6 @@
         <license>BSD-2-Clause | Apache-2.0</license>
         <platform>all</platform>
         <source>https://github.com/pypa/packaging</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.quickjs"
-       name="QuickJS"
-       version="2.0.6"
-       provider-name="QuickJS authors">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.packaging" version="25.0" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">QuickJS Javascript Engine</summary>
-        <description lang="en_GB">QuickJS Javascript Engine</description>
-        <license>MIT</license>
-        <platform>linux</platform>
-        <source>https://github.com/lekma/script.module.quickjs</source>
     </extension>
 
 </addon>
