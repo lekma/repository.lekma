@@ -3,48 +3,6 @@
 
 <addon id="plugin.video.mytube"
        name="MyTube"
-       version="4.0.10"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="xbmc.addon" version="20.2.0" />
-        <import addon="script.module.requests" version="2.31.0" />
-        <import addon="script.module.inputstreamhelper" version="0.8.3" />
-        <import addon="script.module.feedparser" version="6.0.11" />
-        <import addon="script.module.nuttig" version="1.4.10" />
-        <import addon="script.module.iapc" version="2.4.2" />
-        <import addon="script.module.js_runtimes" version="1.0.0" />
-        <import addon="script.module.yt-dlp" version="2025.11.12-1" />
-        <import addon="service.yt-dlp" version="2.0.2" />
-        <import addon="service.sponsorblock" version="1.4.4" optional="true" />
-        <import addon="plugin.video.youtube" version="7.2.0.3" optional="true" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="lib/service.py" />
-
-    <extension point="xbmc.python.script" library="lib/scripts.py" />
-
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">MyTube</summary>
-        <description lang="en_GB">MyTube</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/plugin.video.mytube</source>
-        <assets>
-            <icon>resources/media/icon.png</icon>
-        </assets>
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.mytube"
-       name="MyTube"
        version="4.0.20"
        provider-name="lekma">
 
@@ -147,28 +105,6 @@
 
 <addon id="script.module.js_runtimes"
        name="JavaScript runtimes"
-       version="2.0.0"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-        <import addon="script.module.packaging" version="26.0" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">JavaScript runtimes</summary>
-        <description lang="en_GB">JavaScript runtimes</description>
-        <license>Unlicense</license>
-        <platform>linux</platform>
-        <source>https://github.com/lekma/script.module.js_runtimes</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.js_runtimes"
-       name="JavaScript runtimes"
        version="2.0.20"
        provider-name="lekma">
 
@@ -206,27 +142,6 @@
         <license>MIT</license>
         <platform>all</platform>
         <source>https://github.com/globocom/m3u8</source>
-    </extension>
-
-</addon>
-
-<addon id="script.module.nuttig"
-       name="nuttig"
-       version="1.4.10"
-       provider-name="lekma">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.1" />
-    </requires>
-
-    <extension point="xbmc.python.module" library="lib" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">a useful (to me) collection of kodi utilities</summary>
-        <description lang="en_GB">a useful (to me) collection of kodi utilities</description>
-        <license>Unlicense</license>
-        <platform>all</platform>
-        <source>https://github.com/lekma/script.module.nuttig</source>
     </extension>
 
 </addon>
