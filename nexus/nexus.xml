@@ -125,6 +125,28 @@
 
 </addon>
 
+<addon id="script.module.js_runtimes"
+       name="JavaScript runtimes"
+       version="2.0.22"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.packaging" version="26.0" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">JavaScript runtimes</summary>
+        <description lang="en_GB">JavaScript runtimes</description>
+        <license>Unlicense</license>
+        <platform>linux</platform>
+        <source>https://github.com/lekma/script.module.js_runtimes</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.m3u8"
        name="m3u8"
        version="6.0.0-20250131"
@@ -149,6 +171,27 @@
 <addon id="script.module.nuttig"
        name="nuttig"
        version="1.4.20"
+       provider-name="lekma">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">a useful (to me) collection of kodi utilities</summary>
+        <description lang="en_GB">a useful (to me) collection of kodi utilities</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/lekma/script.module.nuttig</source>
+    </extension>
+
+</addon>
+
+<addon id="script.module.nuttig"
+       name="nuttig"
+       version="1.4.22"
        provider-name="lekma">
 
     <requires>
