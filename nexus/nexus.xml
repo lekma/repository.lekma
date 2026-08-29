@@ -81,6 +81,28 @@
 
 </addon>
 
+<addon id="script.module.graphql-core"
+       name="graphql-core"
+       version="3.2.12"
+       provider-name="Christoph Zwerschke">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.typing_extensions" version="4.7.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">GraphQL implementation for Python</summary>
+        <description lang="en_GB">GraphQL-core is a Python port of GraphQL.js, the JavaScript reference implementation for GraphQL, a query language for APIs created by Facebook</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <source>https://github.com/graphql-python/graphql-core</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.iapc"
        name="Inter-Addon Procedure Call"
        version="2.4.4"
