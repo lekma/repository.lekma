@@ -210,6 +210,27 @@
 
 </addon>
 
+<addon id="script.module.pyjson5"
+       name="pyjson5"
+       version="0.15.0"
+       provider-name="Dirk Pranke">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A Python implementation of the JSON5 data format.</summary>
+        <description lang="en_GB">A Python implementation of the JSON5 data format.</description>
+        <license>Apache-2.0</license>
+        <platform>all</platform>
+        <source>https://github.com/dpranke/pyjson5</source>
+    </extension>
+
+</addon>
+
 <addon id="script.module.yt-dlp"
        name="yt-dlp"
        version="2026.08.19-1"
